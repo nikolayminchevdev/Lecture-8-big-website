@@ -1,0 +1,48 @@
+html, body {
+    height: 100%;
+    overflow: hidden;
+    margin: 0;
+}
+
+.iframe-wrapper iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.modal-window iframe
+{
+    position: fixed;
+    width: 800px;
+    height: 500px;
+    left: 550px;
+    top: 100px;
+}
+
+.modal-window
+{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+.blurr
+{
+    filter: blur(3px);
+    opacity: 0.95;
+}
+
+.escape-button
+{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 32px;
+    left: 1350px;
+    font-size: 60px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid black;
+    text-align: center;
+    padding-bottom: 5px;
+}

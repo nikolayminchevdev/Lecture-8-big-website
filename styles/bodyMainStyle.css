@@ -1,0 +1,232 @@
+.body-main-container
+{
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    width: 1100px;
+    height: 2700px;
+    background-color: #1d2022;
+    overflow: hidden;
+}
+
+.falcon-heavy-big
+{
+    position: absolute;
+    left: 482px;
+    top: 51px;
+    pointer-events : none;
+}
+
+
+#pop-up-container
+{
+    display: none;
+    position: absolute;
+    width: 250px;
+    height: 300px;
+    left: -293px;
+    top: 1px;
+    background-color: #d6dee4;
+    padding: 15px;
+}
+
+.little-arrow {
+    position: absolute;
+    left: 280px;
+    top: 10px;
+    width: 0; 
+    height: 0; 
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent; 
+    border-left:10px solid #d6dee4;
+  }
+
+#learn-more
+{
+    position: absolute;
+    left: 10px;
+    top: 266px;
+    width: 130px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-weight: bold;
+    color: white;
+    background-color: #114669;
+    margin: 0;
+}
+
+#plus-button
+{
+    position: absolute;
+    top: 128px;
+    left: 664px;
+    width: 34px;
+    height: 34px;
+}
+
+#plus-button:hover > #pop-up-container
+{
+    display: block;
+}
+
+.head-left
+{
+    position: absolute;
+    left: 1px;
+    top: 2px;
+    transition: left 1s linear;
+}
+
+.head-right
+{
+    position: absolute;
+    left: 109px;
+    top: 4px;
+    transition: left 1s linear;
+}
+
+#head-animation-trigger-field
+{
+    position: absolute;
+    width: 254px;
+    height: 439px;
+    left: 656px;
+    top: 51px;
+}
+
+#head-animation-trigger-field:hover > .head-left
+{
+    left: -150px;
+}
+
+#head-animation-trigger-field:hover > .head-right
+{
+    left: 260px;
+}
+
+.payload-info
+{
+    position: absolute;
+    left: 5px;
+    top: 100px;
+    display: inline-block;
+    width: 430px;
+    height: 300px;
+    padding: 5px;
+}
+
+.payload-info>h2
+{
+    color: white;
+    font-size: 40px;
+}
+
+.payload-info p:nth-of-type(1)
+{
+    color: rgb(163, 159, 159);
+    font-size: 15px;
+}
+
+.payload-info p:nth-of-type(2)
+{
+    color: rgb(109, 106, 106);
+    font-size: 16px;
+}
+
+.payload-info p:nth-of-type(3)
+{
+    color: rgb(145, 141, 141);
+    font-size: 14px;
+}
+
+.second-stage-info
+{
+    position: absolute;
+    left: 5px;
+    top: 600px;
+    display: inline-block;
+    width: 430px;
+    height: 540px;
+    padding: 5px;
+}
+
+#engine-info
+{
+    display: inline-block;
+    width: 150px;
+}
+
+#burntime-info
+{
+    display: inline-block;
+    width: 200px;
+    margin-left: 20px;
+}
+
+#vacuum-info
+{
+    display: inline-block;
+}
+
+.second-stage-info>h2
+{
+    color: white;
+    font-size: 40px;
+}
+
+#engine-info p:nth-of-type(1)
+{
+    color: rgb(163, 159, 159);
+    font-size: 25px;
+    padding-bottom: 5px;
+    border-bottom: 3px solid rgb(163, 159, 159);
+}
+
+#engine-info p:nth-of-type(2)
+{
+    color: rgb(163, 159, 159);
+    font-size: 35px;
+}
+
+#burntime-info p:nth-of-type(1)
+{
+    color: rgb(163, 159, 159);
+    font-size: 25px;
+    padding-bottom: 5px;
+    border-bottom: 3px solid rgb(163, 159, 159);
+}
+
+#burntime-info p:nth-of-type(2)
+{
+    color: rgb(163, 159, 159);
+    font-size: 35px;
+}
+
+.second-stage-info > p:nth-of-type(1)
+{
+    color: rgb(163, 159, 159);
+    font-size: 15px;
+}
+
+#vacuum-info > p:nth-of-type(1)
+{
+    color: rgb(163, 159, 159);
+    font-size: 25px;
+    width: 380px;
+    margin:0;
+    border-bottom: 3px solid rgb(163, 159, 159);
+
+}
+
+#vacuum-info > p:nth-of-type(2)
+{
+    color: rgb(163, 159, 159);
+    font-size: 35px;
+}
+
+.vacuum-number
+{
+    font-size: 28px;
+    color: rgb(116, 113, 113);
+}
